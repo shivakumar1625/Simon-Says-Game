@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simon Says Game</h1>
+    <h2>Press any key or tap to start the Game.</h2>
+    <h3 id="high-score">Highest Score: 0</h3>
+    <div class="box">
+        <div class="btn red" type="button" id="red">1</div>
+        <div class="btn yellow" type="button" id="yellow">2</div>
+        <div class="btn green" type="button" id="green">3</div>
+        <div class="btn purple" type="button" id="purple">4</div>
+    </div>
+    
+    <div class="game-rules">
+        <h3>Simon Says Game Rules (Digital Version)</h3>
+        <p><strong>Objective:</strong> Repeat the sequence of colors displayed by the game.</p>
+        <h4>Gameplay:</h4>
+        <ul>
+            <li>The game starts with a single color in the sequence.</li>
+            <li>The player must click  the colors in the exact order shown.</li>
+            <li>Each round, a new color is added to the sequence, making it longer and more challenging.</li>
+        </ul>
+        <p><strong>Mistakes:</strong> If the player clicks the wrong color, the game ends, and their score is displayed.</p>
+        <p><strong>Scoring:</strong> The player's score is determined by the number of correct sequences they can follow without making a mistake.</p>
+    
+    </div>
+    <div id="navigation">
+        <h6>Made with &hearts; by Shiva kumar</h6>
+        <a href="https://www.linkedin.com/in/shiva-kumar-gummadiraju/">shiva-kumar-gummadiraju</a>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
